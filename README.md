@@ -9,4 +9,4 @@ SpellHive is a fun and interactive website created specially for children in Yea
 
 For preview of our site, please visit: https://tm3wtt-3000.csb.app/
 
-If unavailable, please visit: https://codesandbox.io/p/github/nashetty/SpellHive to start the live server
+If unavailable, please visit: https://codesandbox.io/p/github/nashetty/SpellHive to start the dev server
