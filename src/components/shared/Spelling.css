@@ -1,0 +1,134 @@
+.Spelling-main {
+  display: flex;
+  justify-content: Center;
+  align-items: Center;
+  /* height: 90vh; */
+  margin-top: 10px;
+  font-family: Georgia;
+  color: #34302c;
+}
+
+.Spelling-content {
+  width: 400px;
+}
+
+.Spelling-content p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.years-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.again-next-skip-end {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5px;
+  gap: 15px;
+}
+
+.again-next-skip-end > button {
+  flex-grow: 1;
+}
+
+.Spelling-input {
+  height: 24px;
+  font-size: 18px;
+  width: 220px;
+  font-family: Georgia;
+  border-style: ridge;
+  border-color: #34302c;
+  font-weight: 800;
+}
+
+.word-show,
+.word-hide {
+  background-color: #34302c;
+  width: 220px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-style: ridge;
+  border-color: black;
+  display: flex;
+  margin: auto;
+  font-weight: 800;
+  font-size: 20px;
+  user-select: none;
+}
+.word-show {
+  color: white;
+}
+.word-hide {
+  color: #34302c;
+}
+
+.Spelling-button {
+  font-weight: 800;
+  font-size: 18px;
+  background-color: #ffa834;
+  border-radius: 12px;
+  margin-top: 0;
+}
+
+.Spelling-title {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+#response {
+  width: 300px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+
+#response-wrong,
+#response-correct {
+  font-weight: 800;
+}
+#response-wrong {
+  color: red;
+}
+
+#response-correct {
+  color: rgb(3, 87, 3);
+}
+
+#display-all-spelled {
+  display: flex;
+  justify-content: Center;
+  align-items: start;
+  height: auto;
+  min-height: 80vh;
+  margin-top: 10px;
+  font-family: Georgia;
+  color: #34302c;
+}
+
+#display-all-spelled li {
+  list-style-position: inside;
+  list-style-type: none;
+  text-align: center;
+  margin-left: -20px;
+  font-size: 20px;
+}
+
+.modal {
+  overflow-y: scroll;
+}
+
+.content {
+  align-items: start;
+}
+
+.list-score {
+  list-style-type: none;
+  text-align: center;
+  margin-left: -20px;
+}

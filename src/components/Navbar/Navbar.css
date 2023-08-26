@@ -1,0 +1,121 @@
+.top-nav {
+  background: #ffa834;
+  height: 85px;
+  display: flex;  
+  justify-content: space-between;
+  /* padding: 0.2rem calc((100vw - 1000px) / 2); */
+  /* padding-right: 20px; */
+  overflow: hidden;
+  align-items: center;
+}
+.info-popup{
+  display: flex;
+  margin-top: -60px;
+  margin-left: 10px;
+  position: absolute;
+  
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: #34302c;
+}
+.nav-header h2 {
+  font-size: 2em;
+  text-shadow: 2px 2px #ffeea8;
+  padding-left: 40px;
+}
+
+.links {
+  color: #34302c;
+  font-weight: 800;
+  font-size: 20px;
+  font-family: Georgia;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  float: left;
+  cursor: pointer;
+  }
+
+.top-nav .nav-btn {
+  /* padding: 5px; */
+  margin-right: -25px;  
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #34302c;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8rem;
+}
+
+.top-nav .nav-close-btn {
+  position: absolute;  
+  top: 1rem;
+  right: 2rem;
+}
+@media only screen and (max-width: 600px){
+.bars-btn {
+  /* position: absolute; */
+  flex-wrap: wrap;
+  align-self: flex-start;
+  top: 1rem;
+  right: 0;
+  
+}
+}
+@media only screen and (min-width: 600px){
+  .bars-btn {
+    position: absolute;
+    /*this needs to be here, otherwise it is covering the info
+    button on big screen and then the button doesn't work*/
+    
+    transform: translateY(100vh);
+      }
+  .responsive_nav {
+    /* display: flex; */
+    justify-content: flex-end;
+  }
+  }
+
+@media only screen and (max-width: 600px) {
+  .top-nav .nav-btn {
+    margin-top: 15px;
+    visibility: visible;
+    opacity: 1;
+}
+  
+.top-nav nav{
+  top: -100vh;
+  left: 0;
+  height: auto;
+  line-height: 1.8em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #ffa834;
+  transition: 0.8s;
+  position: fixed;
+  padding: 10px;
+}
+  
+.top-nav .responsive_nav {
+  transform: translateY(100vh);
+  justify-content: flex-end;
+}
+
+
+@media screen and (min-width: 800px) {
+    .nav-header {
+    padding: 0;
+  }  
+}

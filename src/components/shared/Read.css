@@ -1,0 +1,15 @@
+.readButton {
+  display: flex;
+  margin-top: -25px;
+  padding: 0;
+  flex-wrap: wrap;
+  align-self: stretch;
+  justify-content: center;
+}
+
+.readButton button {
+  font-weight: 800;
+  font-size: 18px;
+  background-color: #ffa834;
+  border-radius: 12px;
+}

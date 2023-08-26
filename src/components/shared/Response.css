@@ -1,0 +1,30 @@
+#thumbs-up {
+  width: 130px;
+  height: auto;
+  position: fixed;
+  top: -100%;
+  right: -100%;
+  left: -100%;
+  bottom: -100%;
+  margin: auto;
+  animation-name: pop;
+  animation-duration: 1000ms;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes pop {
+  0% {
+    scale: 0;
+    display: none;
+  }
+
+  80% {
+    transform: scaleX(3) scaleY(3);
+  }
+
+  100% {
+    transform: scaleX(0) scaleY(0);
+    display: none;
+  }
+}

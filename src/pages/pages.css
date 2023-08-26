@@ -1,0 +1,27 @@
+.div-main {
+  display: flex;
+  justify-content: Center;
+  align-items: Center;
+  height: 55vh;
+  margin-top: 10px;
+  color: #34302c;
+}
+
+.div-content {
+  width: 400px;
+}
+
+.div-content p {
+  font-size: 18px;
+}
+
+.years-links {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  margin: 10px;
+}
+
+h1 {
+  margin: 10px;
+}

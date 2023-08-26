@@ -1,0 +1,18 @@
+.info-btn {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  font-weight: 1000;
+  font-family: "Courier";
+  border: 2px solid #34302c;
+  background-color: #ffeea8;
+  cursor: pointer;
+}
+.modal {
+  overflow-y: scroll;
+}
+
+.content {
+  align-items: start;
+}

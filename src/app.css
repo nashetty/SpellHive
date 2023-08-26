@@ -1,0 +1,77 @@
+.App {
+  font-family: Georgia;
+  text-align: center;
+  color: #34302c;
+}
+
+* {
+  margin: 0;
+  /* text-decoration: none; */
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  background-color: #34302c;
+  background-image: url(/img/bees.png);
+  /* background-size: contain; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia;
+
+  @media screen and (max-width: 1100px) {
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
+  }
+}
+
+#nav {
+  height: 120px;
+  /* margin-bottom: 20px; */
+}
+#page {
+  height: auto;
+}
+.content {
+  display: flex;
+  flex: 1 0 auto;
+  /* margin-top: 60px; */
+  /* margin-bottom: 60px; */
+  height: 90vh;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #ffa834;
+  position: relative;
+  margin-top: 100px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 2em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  vertical-align: middle;
+  @media screen and (max-width: 377px) {
+    height: 100px;
+  }
+}
+
+/* colour palette
+
+#FFCE8D,#FFA834,#33FFF9,#5633FF
+*/
