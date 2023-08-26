@@ -17,7 +17,7 @@ body {
 body {
   text-align: center;
   background-color: #34302c;
-  background-image: url(/img/bees.png);
+  background-image: url("../public/img/bees.png");
   /* background-size: contain; */
   background-size: cover;
   background-repeat: no-repeat;
