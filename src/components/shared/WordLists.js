@@ -3,7 +3,7 @@ export const wordListY1 = [
   "a",
   "do",
   "to",
-  "today"
+  "today",
   "of",
   "said",
   "says",
