@@ -35,11 +35,11 @@ This project was created with user convenience in mind! The website is responsiv
 
 2. **Listen and Learn:** Click a button and hear how the word sounds. It's like having your own word-talking helper!
 
-3. **Try, Try Again:** Don't worry if you don't get it the first time. You can give it another shot, or if you want, skip the word for now and come back when you're ready.
+3. **Try, Try Again:** Don't worry if you don't get it the first time. You can give it another shot, or if you want, skip the word for now and come back to it at the end.
 
 4. **See Your Wins:** Want to see where you're doing awesome? You can check out the words you got right anytime you like.
 
-5. **Practice Playtime:** Practice spelling as much as you want. When you finish all the words, guess what? The computer gives you a thumbs-up!
+5. **Practice Playtime:** Practice spelling as much as you want. When you finish all the words, guess what? The computer will let you know!
 
 6. **Your Choice, Anytime:** If you decide it's time to stop, just click "End". You'll get to see all the cool words you practiced.
 
@@ -49,7 +49,7 @@ This project was created with user convenience in mind! The website is responsiv
 
 9. **Easy Buttons:** We made it easy with special buttons you can use even without a mouse. It's like magic for your keyboard!
 
-10. **Get Help:** Stuck or need help? Click the little ⓘ up in the corner from any page. It's there to help you understand.
+10. **Get Help:** Stuck or need help? Click the little ⓘ up in the corner from any page. It's there to help you understand how to use SpellHive.
 
 Keep having fun with SpellHive! 🐝📚
 
