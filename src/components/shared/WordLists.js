@@ -167,7 +167,7 @@ export const wordListY34 = [
   "history",
   "imagine",
   "increase",
-  "important ",
+  "important",
   "interest",
   "island",
   "knowledge",
