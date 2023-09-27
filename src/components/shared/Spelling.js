@@ -91,7 +91,15 @@ export const Spelling = ({ wordList, title }) => {
       setShowWord("word-show");
       entry = word + " ✔️";
       setListOfCorrectWords([...listOfCorrectWords, entry]);
-    } else {
+    } // only for the following words, the case won't be ignored
+    else if (["Mr", "Mrs", "February"].includes(word) && word === spelledWord.trim()){
+      setResponse("Correct!");
+      setDisabled("disabled");
+      setShowWord("word-show");
+      entry = word + " ✔️";
+      setListOfCorrectWords([...listOfCorrectWords, entry]);
+    } 
+    else {
       setResponse("Incorrect.");
       setDisabled("disabled");
       setShowWord("word-show");
