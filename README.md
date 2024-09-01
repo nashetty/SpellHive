@@ -64,5 +64,4 @@ Screenshots created via [Am I Responsive](https://ui.dev/amiresponsive)
 ## Links
 
 - Repository URL: https://github.com/nashetty/SpellHive
-- For preview of our Web App, please visit: https://tm3wtt-3000.csb.app/
-- If unavailable, please visit: https://codesandbox.io/p/github/nashetty/SpellHive to start the dev server
+- For preview of our Web App, please visit: https://spell-hive.vercel.app/
